@@ -10,10 +10,10 @@ import Loading from '@/components/Loading'
 const Detail: FC = () => {
   const { id = '' } = useParams()
   const { data, isLoading } = useGetArtQuery(id)
-  const { artObject } = data || {}
+  const { artObject } = data ?? {}
 
   return (
-    <div className="px-4 md:px-[100px] lg:px-[200px] pt-10 w-auto 2xl:w-[1300px] mx-auto">
+    <div className="px-4 md:px-[100px] lg:px-[200px] pt-10 pb-20 w-auto 2xl:w-[1300px] mx-auto">
 
       <Link to="/" className="font-medium flex items-center text-lg">
         <ArrowLeft className="mr-1" />
