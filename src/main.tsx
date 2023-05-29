@@ -4,6 +4,7 @@ import { RouterProvider } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import router from '@/pages/router.tsx'
 import { store } from '@/redux/store.ts'
+import 'rodal/lib/rodal.css'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(

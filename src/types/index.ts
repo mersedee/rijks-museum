@@ -154,3 +154,25 @@ export interface Links {
   self: string
   web: string
 }
+
+export interface QueryParam {
+  name: string
+  value: string
+}
+
+export interface Color {
+  hex: string
+  red: number
+  green: number
+  blue: number
+  area: number
+  hue: number
+  saturation: number
+  lightness: number
+  intensity: number
+}
+
+export interface SearchProps {
+  param: string
+  color: string
+}

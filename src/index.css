@@ -2,40 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.container {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
-    grid-auto-rows: 200px;
-}
-
-.card {
-    grid-row: span 2 / auto;
-}
-
-.grid-container {
-    grid-auto-rows: auto;
-}
-
-.grid-item {
-    grid-column-end: span 1;
-}
-
-@media (min-width: 640px) {
-    .grid-item {
-        grid-column-end: span 2;
-    }
-}
-
-@media (min-width: 768px) {
-    .grid-item {
-        grid-column-end: span 3;
-    }
-}
-
-@media (min-width: 1024px) {
-    .grid-item {
-        grid-column-end: span 4;
-    }
+.rodal-dialog {
+    border-radius: 15px;
 }
