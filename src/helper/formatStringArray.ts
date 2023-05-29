@@ -16,5 +16,5 @@ export const formatStringArray = (strings: string[]): string => {
   const lastString = strings[length - 1]
   const otherStrings = strings.slice(0, length - 1).join(', ')
 
-  return `${otherStrings}, and ${lastString}`
+  return `${otherStrings} and ${lastString}`
 }
